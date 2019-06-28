@@ -1,17 +1,17 @@
 <template>
   <div class="home">
-    <Header></Header>
+    <Swipe></Swipe>
     <Tabbar></Tabbar>
   </div>
 </template>
 
 <script>
-import Header from '@/components/common/Header.vue'
+import Swipe from '@/components/common/Swipe.vue'
 import Tabbar from '@/components/common/Tabbar.vue'
 export default {
   name: 'home',
   components: {
-    Header,
+    Swipe,
     Tabbar
   }
 }
